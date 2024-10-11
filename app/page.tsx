@@ -4,7 +4,7 @@ import { Footer } from '../components/Footer';
 export default function Home() {
   return (
     <div>
-      <h1>インデックスページ</h1>
+      <h1>あたらしいインデックスページ</h1>
       <Links />
       <Footer />
     </div>
