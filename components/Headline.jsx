@@ -1,9 +1,10 @@
-export const Headline = ({ page }) => {
+export const Headline = ({ page, children }) => {
   return (
-    <div className="headline">
-      <h1>Welcome to My App</h1>
-      <p>{page} page</p>
+    <div>
+      <h1>
+        {page} page
+      </h1>
+      {children}
     </div>
   );
-};
-
+}

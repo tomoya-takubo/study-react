@@ -1,14 +1,9 @@
-import { Links } from '../components/Links';
-import { Footer } from '../components/Footer';
-import { Headline } from '../components/Headline';
+import { Main } from '../components/Main'
 
 export default function Home() {
   return (
-    <div>
-      <h1>あたらしいインデックスページ</h1>
-      <Links />
-      <Headline page="home" />
-      <Footer />
-    </div>
+    <Main page="index">
+      <p>Get started by editing app/page.js</p>
+    </Main>
   );
 }
