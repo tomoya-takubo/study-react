@@ -1,3 +1,5 @@
+import classes from './Links.module.css'
+
 export function Links() {
   return (
     <div>

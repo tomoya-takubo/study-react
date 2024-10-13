@@ -1,3 +1,5 @@
+import classes from './Headline.module.css'
+
 export const Headline = ({ page, children }) => {
   return (
     <div>

@@ -1,9 +1,8 @@
-import { Main } from '../../components/Main'
-
 export default function About() {
   return (
-    <Main page="about">
-      <p>Get started by editing app/about/page.js</p>
-    </Main>
-  );
+    <main>
+      <h1>アバウトページ</h1>
+      <p>ここはアバウトページの内容です。</p>
+    </main>
+  )
 }
