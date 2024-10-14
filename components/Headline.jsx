@@ -1,4 +1,4 @@
-import classes from './Headline.module.css'
+// import classes from './Headline.module.css'
 
 export const Headline = ({ page, children }) => {
   return (
